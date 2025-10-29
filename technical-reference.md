@@ -1,3 +1,7 @@
+---
+icon: rectangle-terminal
+---
+
 # Technical Reference
 
 ### Program Accounts (Devnet)
