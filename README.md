@@ -1,3 +1,7 @@
+---
+icon: hand-wave
+---
+
 # Welcome
 
 Aril is a next-generation DeFi lending protocol dedicated to redefining the on-chain lending experience through innovative mechanisms. We support a variety of interest-bearing assets as collateral—including Liquidity Providing (LP) Tokens, Liquid Staking Tokens (LSTs), and Real-World Assets (RWAs)—and on this basis, offer the world’s first zero-interest-rate stablecoin loan. The stablecoin in question is USDA, natively issued by the Aril platform; users can mint for free upon collateralizing their assets, with no interest or additional fees incurred.
