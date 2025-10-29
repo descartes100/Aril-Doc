@@ -6,6 +6,8 @@ icon: message-smile
 
 Website: [https://aril.so](https://aril.so)
 
+Docs: [https://aril.gitbook.io/doc](https://aril.gitbook.io/doc)
+
 X: [https://x.com/arilsolana](https://x.com/arilsolana)
 
 Telegram: [https://t.me/Arilcommunity](https://t.me/Arilcommunity)
