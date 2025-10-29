@@ -9,7 +9,7 @@ icon: coin-blank
 
 The goal of USDA is to create a synthetic USD that offers price stability, yield sharing, absolute transparency, and ultra-low risk. Its core mechanism is built around three pillars:
 
-#### Pillar 1: Tiered Over-Collateralization and Net Value Anchoring <a href="#pillar-1-tiered-over-collateralization-and-net-value-anchoring" id="pillar-1-tiered-over-collateralization-and-net-value-anchoring"></a>
+### Pillar 1: Tiered Over-Collateralization and Net Value Anchoring <a href="#pillar-1-tiered-over-collateralization-and-net-value-anchoring" id="pillar-1-tiered-over-collateralization-and-net-value-anchoring"></a>
 
 **Over-Collateralized Minting**
 
@@ -28,7 +28,7 @@ The ultimate value anchor of USDA stems from the net value of its underlying col
 * **Minting**: Deposit collateral → Mint USDA based on the collateral ratio.
 * **Redemption**: Burn USDA → Retrieve corresponding collateral value based on net worth (after debt settlement). This is the ultimate safeguard against USDA depegging.
 
-#### Pillar 2: Delta-Neutral Hedging and Yield Engine <a href="#pillar-2-delta-neutral-hedging-and-yield-engine" id="pillar-2-delta-neutral-hedging-and-yield-engine"></a>
+### Pillar 2: Delta-Neutral Hedging and Yield Engine <a href="#pillar-2-delta-neutral-hedging-and-yield-engine" id="pillar-2-delta-neutral-hedging-and-yield-engine"></a>
 
 This is what sets USDA apart from traditional over-collateralized stablecoins (e.g., DAI) and centralized stablecoins (e.g., USDC).
 
@@ -38,12 +38,12 @@ To prevent collateral price fluctuations from devaluing USDA, the protocol does 
 
 **Yield Sources and Distribution**
 
-Hedged collateral participates in [yield strategies](https://app.gitbook.com/o/9Z06MyHy386761vdYT3N/s/5oXUOjclCElVxuzkm9c7/~/changes/26/~/revisions/q2PpoqgbQYUClFdMGAhm/core-mechanisms/neutral-strategy-with-zk) to generate stable, low-risk yields.**Yield Distribution**
+Hedged collateral participates in [yield strategies](neutral-strategy-with-zk.md) to generate stable, low-risk yields.**Yield Distribution**
 
 * **Yield Sharing**: These yields do not belong to the protocol but are distributed to USDA holders. Holding USDA is like owning an interest-bearing USD savings account.
 * **Enhanced Security**: Yields are continuously injected into the collateral pool, gradually increasing the collateral ratio. This means the collateral value behind each USDA grows over time, making the system increasingly secure.
 
-#### Pillar 3: Multi-Layered Market Adjustments and Windowless Minting/Redemption <a href="#pillar-3-multi-layered-market-adjustments-and-windowless-minting-redemption" id="pillar-3-multi-layered-market-adjustments-and-windowless-minting-redemption"></a>
+### Pillar 3: Multi-Layered Market Adjustments and Windowless Minting/Redemption <a href="#pillar-3-multi-layered-market-adjustments-and-windowless-minting-redemption" id="pillar-3-multi-layered-market-adjustments-and-windowless-minting-redemption"></a>
 
 **Three-Tiered Anchoring Maintenance Mechanisms**
 
@@ -55,7 +55,7 @@ Hedged collateral participates in [yield strategies](https://app.gitbook.com/o/9
 
 Initially, the number of USDA that can be minted will be limited. This is a prudent risk management measure to ensure hedging strategies operate stably at a controllable scale. The supply cap will gradually increase as strategies mature and gain market recognition, ensuring long-term system robustness.
 
-#### Summary: Core Advantages of USDA <a href="#summary-core-advantages-of-usda" id="summary-core-advantages-of-usda"></a>
+### Summary: Core Advantages of USDA <a href="#summary-core-advantages-of-usda" id="summary-core-advantages-of-usda"></a>
 
 | **Anchoring Mechanism** | Net value redemption + market arbitrage                                              | Relies mainly on market arbitrage; low collateral utilization              | Centralized 1:1 USD redemption promises                     |
 | ----------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------------------------------------------------- |
