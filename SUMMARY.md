@@ -15,3 +15,7 @@
 * [Roadmap](basics/roadmap.md)
 * [Audit](basics/audit.md)
 * [About Us](basics/about-us.md)
+
+***
+
+* [Technical Reference](technical-reference.md)
