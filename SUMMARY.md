@@ -5,3 +5,4 @@
 ## Core Mechanisms
 
 * [Lending](core-mechanisms/lending.md)
+* [LP as Collateral](core-mechanisms/lp-as-collateral.md)
