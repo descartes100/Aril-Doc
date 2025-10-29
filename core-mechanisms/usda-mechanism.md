@@ -7,7 +7,7 @@ icon: coin-blank
 
 # USDA Mechanism
 
-The goal of USDA is to create a synthetic USD that offers price stability, yield sharing, absolute transparency, and ultra-low risk. Its core mechanism is built around three pillars:
+The goal of USDA is to create a stablecoin that offers price stability, yield sharing, absolute transparency, and ultra-low risk. Its core mechanism is built around three pillars:
 
 ### Pillar 1: Tiered Over-Collateralization and Net Value Anchoring <a href="#pillar-1-tiered-over-collateralization-and-net-value-anchoring" id="pillar-1-tiered-over-collateralization-and-net-value-anchoring"></a>
 
