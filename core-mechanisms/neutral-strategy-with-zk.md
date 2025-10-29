@@ -13,7 +13,7 @@ We have built an advanced proof system that periodically generates four core pro
 
 #### 1. Proof of Account Control
 
-* **Proof Content**: Without disclosing the account ID or API key, prove that the Aril team controls a valid account with a non-zero balance on a specific Centralized Exchange (CEX).
+* **Proof Content**: "Without disclosing the account ID or API key, prove that the Aril team controls a valid account with a non-zero balance on a specific Centralized Exchange (CEX)."
 * **Implementation Path**: Our system periodically obtains signed account information (with a timestamp) returned by the CEX API. The ZK circuit verifies the validity of this signature, thereby proving we have real-time query access to the account—a strong evidence of control.
 
 #### 2. Proof of Fund Traceability
