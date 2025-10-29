@@ -10,4 +10,4 @@ X: [https://x.com/arilsolana](https://x.com/arilsolana)
 
 Telegram: [https://t.me/Arilcommunity](https://t.me/Arilcommunity)
 
-Github:&#x20;
+Github: [https://github.com/Y-Defi](https://github.com/Y-Defi)
