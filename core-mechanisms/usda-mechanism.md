@@ -57,8 +57,9 @@ Initially, the number of USDA that can be minted will be limited. This is a prud
 
 ### Summary: Core Advantages of USDA <a href="#summary-core-advantages-of-usda" id="summary-core-advantages-of-usda"></a>
 
-| **Anchoring Mechanism** | Net value redemption + market arbitrage                                              | Relies mainly on market arbitrage; low collateral utilization              | Centralized 1:1 USD redemption promises                     |
+| Feature                 | USDA                                                                                 | DAI                                                                        | USDC                                                        |
 | ----------------------- | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| **Anchoring Mechanism** | Net value redemption + market arbitrage                                              | Relies mainly on market arbitrage; low collateral utilization              | Centralized 1:1 USD redemption promises                     |
 | **Capital Efficiency**  | High: Collateral generates continuous yields via hedging strategies                  | Low: Collateral is mostly idle, serving only as security                   | N/A                                                         |
 | **Yield Ownership**     | Accrues to holders: Yields flow back to USDA itself via strategies                   | Accrues to the protocol: Yields are primarily captured via deposit spreads | Accrues to issuers: Interest on reserves belongs to issuers |
 | **Transparency**        | Extremely high: All collateral, debts, and hedging positions are on-chain verifiable | Relatively high                                                            | Relies on periodic audits by centralized institutions       |
