@@ -38,7 +38,7 @@ To prevent collateral price fluctuations from devaluing USDA, the protocol does 
 
 **Yield Sources and Distribution**
 
-Hedged collateral participates in [yield strategies](neutral-strategy-with-zk.md) to generate stable, low-risk yields.**Yield Distribution**
+Hedged collateral participates in [yield strategies](neutral-strategy.md) to generate stable, low-risk yields.**Yield Distribution**
 
 * **Yield Sharing**: These yields do not belong to the protocol but are distributed to USDA holders. Holding USDA is like owning an interest-bearing USD savings account.
 * **Enhanced Security**: Yields are continuously injected into the collateral pool, gradually increasing the collateral ratio. This means the collateral value behind each USDA grows over time, making the system increasingly secure.
