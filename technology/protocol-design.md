@@ -18,7 +18,7 @@ The Aril protocol is structured into three distinct layers that facilitate a sec
 
 The following diagram illustrates the interaction between these core components, detailing the flow of data and assets that power the Aril lending ecosystem:
 
-<figure><img src="../.gitbook/assets/Untitled 7 copy 2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Untitled 7 copy 2.png" alt=""><figcaption><p>Aril Lending Protocol</p></figcaption></figure>
 
 ### **3. Core Protocol Modules​​**
 
