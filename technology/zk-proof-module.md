@@ -12,7 +12,7 @@ Aril is a decentralized lending protocol designed to maximize capital efficiency
 
 The ZK Proof System acts as a secure verification layer that operates in parallel to the core lending protocol. It consumes data from both on-chain activities and off-chain exchange operations, generating verifiable proofs that are then anchored on-chain. This creates a trustless bridge between our off-chain strategies and on-chain user assurances.The following diagram illustrates how the ZK Proof System integrates with the broader Aril ecosystem, verifying the integrity of operations that support the USDC lending pool:
 
-<figure><img src="../.gitbook/assets/Untitled 32.png" alt=""><figcaption><p>Off-Chain and On-Chain ZK Proof Flow</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/Untitled 32.png" alt=""><figcaption><p>Off-Chain and On-Chain ZK Proof Flow</p></figcaption></figure></div>
 
 ### **3. Core Proof Suite: Solving Critical Trust Problems​​**
 

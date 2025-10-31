@@ -12,7 +12,7 @@ Aril is engineered to solve key challenges in the DeFi space: unlocking liquidit
 
 The Aril protocol is structured around four primary modules that work in concert to create a seamless and trust-minimized financial ecosystem. The data flow begins with the initiation of the lending program and moves through the core logic, verification layer, and finally to data persistence.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Aril Architecture</p></figcaption></figure>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Aril Architecture</p></figcaption></figure></div>
 
 #### **2.1. Lending Program** ​
 
