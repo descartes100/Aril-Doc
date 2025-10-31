@@ -18,7 +18,7 @@ As shown in the figure, the Aril protocol has established a clear capital flow p
 
 ### Yield Engine and Risk Buffer
 
-The Strategic Yield Vaults are the core innovation of the system, continuously generating Yield Revenue through professional strategies. This portion of yield is intelligently allocated: part is distributed to lenders as returns, and the other part is automatically converted into borrowing buffer funds. This design not only ensures lenders' yields but also provides an economic foundation for the system's zero-interest lending.
+The [Strategic Yield Vaults](neutral-strategy.md) are the core innovation of the system, continuously generating Yield Revenue through professional strategies. This portion of yield is intelligently allocated: part is distributed to lenders as returns, and the other part is automatically converted into borrowing buffer funds. This design not only ensures lenders' yields but also provides an economic foundation for the system's zero-interest lending.
 
 ### Three-Dimensional Innovative Value
 
