@@ -4,7 +4,7 @@ icon: anchor
 
 # Roadmap
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/roadmap.jpeg" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/roadmap.jpeg" alt=""><figcaption><p>Aril's Roadmap</p></figcaption></figure></div>
 
 ### H1'26 — Scale assets & venues
 
@@ -16,7 +16,7 @@ Aril will broaden the collateral and add venues so deposits compound while unloc
 * Neutral strategy vaults&#x20;
 * Risk engine upgrade with venue-aware limits, stress testing, and simulation playbooks
 
-<div data-with-frame="true"><figure><img src="../.gitbook/assets/structure.jpeg" alt=""><figcaption></figcaption></figure></div>
+<div data-with-frame="true"><figure><img src="../.gitbook/assets/structure.jpeg" alt=""><figcaption><p>Aril's Vision</p></figcaption></figure></div>
 
 ### Q1'27 — Institutions & Perp DEX
 
