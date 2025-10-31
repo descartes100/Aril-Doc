@@ -17,6 +17,10 @@
 * [ZK Proof Module](technology/zk-proof-module.md)
 * [Technical Reference](technology/technical-reference.md)
 
+## Guidance
+
+* [Video Guide](guidance/video-guide.md)
+
 ## Basics
 
 * [Roadmap](basics/roadmap.md)
