@@ -1,45 +1,68 @@
 ---
-description: Reconstructing the Foundation of Trust with Zero-Knowledge Proofs
+description: Stable Earn, Low Directional Risk
 icon: chart-mixed-up-circle-dollar
 ---
 
-# Neutral Strategy with ZK
+# Neutral Strategy
 
-At Aril, our core yield engine is a market-proven neutral strategy (delivering a 30% annualized return for 5 consecutive years). Yet we also understand that when users entrust their assets to us, their biggest concerns are: Is their funds safe? Does the strategy work as claimed? Traditional solutions include audit reports and on-chain verification, but these often suffer from delays and blind spots when it comes to complex off-chain strategies. Aril’s answer is: leveraging Zero-Knowledge Proof (ZK) technology to achieve trustless, real-time transparency. We don’t just make promises—we provide mathematical proof.
+Aril’s neutral vaults keep collateral productive while you borrow or trade—harvesting **basis, funding, and fee premia with delta-neutral** construction and tight risk limits. Results below are live track to 2025-09-30.
 
-### Our ZK Transparency Framework
+Why users choose Earn with Aril
 
-We have built an advanced proof system that periodically generates four core proofs below. The hash of each proof document is anchored on the blockchain, allowing anyone to verify it publicly.
+* **Shallow drawdowns** and **low volatility** across sleeves
+* **Short termination windows** (most <7 days; LP DN <3 days)
+* **ZK transparency**: proofs of control, flow, neutrality, and return, anchored on-chain.&#x20;
 
-#### 1. Proof of Account Control
+### How It Works
 
-* **Proof Content**: "Without disclosing the account ID or API key, prove that the Aril team controls a valid account with a non-zero balance on a specific Centralized Exchange (CEX)."
-* **Implementation Path**: Our system periodically obtains signed account information (with a timestamp) returned by the CEX API. The ZK circuit verifies the validity of this signature, thereby proving we have real-time query access to the account—a strong evidence of control.
+1. **Source premia**: cross-venue basis, perp funding, LP fees/premia.
+2. **Neutralize risk**: programmatic hedges; strict slippage & inventory limits.
+3. **Route yield** to your cross-margin account—so **yield stays on** while you mint USDA or trade perps.
 
-#### 2. Proof of Fund Traceability
+### Strategy Sleeves & Live Track
 
-* **Proof Content**: "The total assets in the exchange account match the total user deposits in the on-chain Vault, with all fund flows clearly traceable."
-* **Technical Path**: The circuit verifies the entire chain from on-chain Vault deposit events to balance changes in the exchange account. It proves that the current net assets in the exchange account are derived entirely from users’ on-chain deposits and strategy-generated yields, with no unexplained fund inflows or outflows.
-* **Trust Problem Solved**: Ensures no fund misappropriation or mixing with funds from other sources, safeguarding the purity and consistency of the Vault’s assets.
+#### Cross-Exchange Arbitrage — Hyperliquid ↔ Binance / OKX
 
-#### 3. Proof of Risk Neutrality
+* Profile: Cross-venue dislocations with strict routing.
+* Key stability: **Vol \~5.61% / 2.35%, Max DD \~1.74% / 0.37%, Sharpe \~9.30 / 7.61 (HYPE-BN / HYPE-OKX).**
+* Returns: **66.28% (2024 (HYPE airdrop)); 7.91% (2025 YTD) (HYPE-BN). 5.00% (2025 YTD) (HYPE-OKX).**
+* Why it fits Earn: High Sharpe, intraday monitoring, shallow historical DD.
 
-* **Proof Content**: "The overall Delta of our portfolio is approximately zero—no one-way market risk is assumed, which aligns with the definition of a ‘market-neutral’ strategy."
-* **Technical Path**: This is the most complex proof. The circuit takes the type and quantity of all positions (perpetual contracts, futures, spot) as input, and calculates the portfolio’s Delta exposure based on public market prices (provided by decentralized oracles like Pyth Network). It proves the net value fluctuates within an extremely small threshold.
-* **Trust Problem Solved**: Mathematically assures users that their returns do not come from high-risk speculation, but from robust strategies like arbitrage and market-making. The strategy will not face liquidation risk due to sharp market rises or falls.
+#### Funding Rate Strategy — Hyperliquid & Bitget
 
-#### 4. Proof of Actual Return Rate
+* Profile: Market-neutral carry from funding with capped leverage.
+* Stability: **Vol \~3.35% / 4.00%, Max DD \~1.13% / 2.45%, Sharpe \~5.61 / 4.75.**
+* Returns (2025 YTD): **12.23% (HL), 10.98% (Bitget).**
 
-* **Proof Content**: "During time period T, the actual annualized return rate of our strategy is R, and R ≥ the benchmark return rate we promised."
-* **Technical Path**: The circuit verifies the Vault’s net assets at the start and end of the period, then calculates the time-weighted return rate. It ultimately proves that the calculated return rate R is accurate and meets the promised target.
-* **Trust Problem Solved**: Users don’t need to trust our one-sided performance reports—they can verify the strategy’s effectiveness and reliability through cryptographic proofs.
+#### Single-Exchange Arbitrage — Binance (BTC / ETH)
 
-### The Ultimate Form of Trust
+* Profile: In-venue basis/triangular edges; latency-aware fills.
+* Stability: **Vol \~3.33% / 1.89%, Max DD \~0.47% / 0.74%, Sharpe \~6.19 / 4.97.**
+* Returns (2025 YTD): **BTC 10.78%, ETH 4.74%.**
+* Leverage guideline: 5×–10× (tight caps, single-venue controls).
 
-Through this ZK Transparency Framework, Aril achieves three key outcomes:
+#### LP Delta-Neutral — Jupiter DEX ↔ Binance (USDT)
 
-* **Verifiable**: Any user can independently verify the ZK proofs we publish.
-* **Privacy-Preserving**: While proving everything, we never disclose business secrets such as specific operational strategies or position details.
-* **Real-Time**: Unlike quarterly or annual audits, our proofs can be generated hourly or daily, providing near-real-time transparency.
+* Profile: Provide DEX LP, hedge on CEX; monetize fees/premia.
+* Stability: **Vol \~8.73%, Max DD \~3.21%, Sharpe \~2.55**.
+* Returns: **9.21% (2024); 12.38% (2025 YTD)**.
+* Ops: <3-day termination; dynamic premium management.
 
-At Aril, we firmly believe that genuine decentralized finance lies not only in permissionless assets, but more importantly in permissionless trust. Through Zero-Knowledge Proofs, we shift trust from reliance on intermediaries to reliance on mathematical laws. \
+#### Mixed Arbitrage — KiloEx / Aster / Backpack ↔ Binance
+
+* Profile: Basket of neutral opportunities + airdrops.
+* Stability: **Vol \~5.69%, Max DD \~3.12%, Sharpe \~2.51.**
+* Returns: **5.94% (2024); 7.60% (2025 YTD).**
+
+**Sunset (for record)**: GMX v2 LP DN exited 2025-04-30 after parameter/liquidity changes; capital rotated to higher-Sharpe sleeves.
+
+### Risk Controls&#x20;
+
+* Neutral by construction: delta ≈ 0; returns come from funding/basis/fees.
+* Venue diversification: DEX + CEX routes (Hyperliquid, Jupiter, KiloEx, Aster, Backpack; Binance/OKX/Bitget).
+* Execution discipline: capped leverage, strict per-order slippage, inventory-aware unwinds.
+* Operational cadence: up to hourly checks in stress; fast de-risk paths.
+* [ZK proofs](../technology/zk-proof-module.md): control, flow, neutrality, and return rates—verifiable without revealing positions.&#x20;
+* Performance 20%–30%
+
+**Note**: “Neutral” ≠ “risk-free.” Past performance is not indicative of future results.
