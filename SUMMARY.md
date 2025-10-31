@@ -6,7 +6,6 @@
 
 * [Lending](core-mechanisms/lending.md)
 * [LP as Collateral](core-mechanisms/lp-as-collateral.md)
-* [Liquidation Mechanism](core-mechanisms/liquidation-mechanism.md)
 * [Neutral Strategy](core-mechanisms/neutral-strategy.md)
 * [USDA Mechanism](core-mechanisms/usda-mechanism.md)
 
@@ -14,6 +13,7 @@
 
 * [Architecture](technology/architecture.md)
 * [Protocol Design](technology/protocol-design.md)
+* [Liquidation Mechanism](technology/liquidation-mechanism.md)
 * [ZK Proof Module](technology/zk-proof-module.md)
 * [Technical Reference](technology/technical-reference.md)
 
